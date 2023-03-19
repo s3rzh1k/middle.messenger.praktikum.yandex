@@ -1,0 +1,30 @@
+.broken {
+  position: relative;
+  z-index: 100;
+  width: 32rem;
+  text-align: right;
+  align-items: flex-end;
+  margin: 0;
+  &__title {
+    font-size: 48px;
+  }
+  &__subtitle {
+    font-size: 43px;
+    color: var(--c-grey);
+  }
+}
+
+.container_broken {
+  position: relative;
+  height: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  .key-icon {
+    position: absolute;
+    z-index: 1;
+    height: 50%;
+    top: 30%;
+    right: 10%;
+  }
+}
+

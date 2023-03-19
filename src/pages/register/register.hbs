@@ -1,0 +1,14 @@
+<div class="container">
+    <form class="container__form">
+        <div class="mb-1 text-align-center fz-30">Регистрация</div>
+        <div class="container__input mb-4">
+            {{#each data}}
+                <input class="input input_text" type="text" placeholder="{{name}}" />
+            {{/each}}
+        </div>
+        <div class="container__actions">
+            <button class="mb-1" formaction="submit">Регистрация</button>
+            <a href="login">Войти</a>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,25 @@
+<div class="profile-container">
+    <div class="img-container">
+        <img class="img-container__image" src={{avatar}}>
+        <div class="img-container__title">{{props.display_name}}</div>
+    </div>
+    <div class="options-list">
+        {{#each data}}
+            <div class="options-list__item">
+                <div class="item-name">{{name}}</div>
+                <div class="item-value">{{value}}</div>
+            </div>
+        {{/each}}
+    </div>
+    <div class="options-list">
+        <div class="options-list__item">
+            <a class="link_lightpurple" href="*">Изменить данные</a>
+        </div>
+        <div class="options-list__item">
+            <a class="link_lightpurple" href="*">Изменить пароль</a>
+        </div>
+        <div class="options-list__item">
+            <a class="link_red" href="login">Выйти</a>
+        </div>
+    </div>
+</div>
