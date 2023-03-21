@@ -1,6 +1,6 @@
-import register from "./register.hbs";
+import registerTemplate from "./register.hbs";
 import "./register.scss";
-export default (props) => {
+export const register = (props) => {
   const fields = {
     email: "Почта",
     login: "Логин",
@@ -18,5 +18,8 @@ export default (props) => {
     });
     return acc;
   }, []);
-  return register({ props, fields, data });
+  return registerTemplate({ props, fields, data });
 };
+
+const root = document.querySelector("#root");
+root.innerHTML = register();

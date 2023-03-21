@@ -1,5 +1,8 @@
-import login from "./login.hbs";
+import loginTemplate from "./login.hbs";
 import "./login.scss";
-export default (props) => {
-  return login({ props });
+export const login = (props) => {
+  return loginTemplate({ props });
 };
+
+const root = document.querySelector("#root");
+root.innerHTML = loginTemplate();

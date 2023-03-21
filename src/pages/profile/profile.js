@@ -1,7 +1,7 @@
-import profile from "./profile.hbs";
+import profileTemplate from "./profile.hbs";
 import "./profile.scss";
 import avatar from "../../../static/images/avatar.svg";
-export default (props) => {
+export const profile = (props) => {
   const fields = {
     email: "Почта",
     login: "Логин",
@@ -18,5 +18,15 @@ export default (props) => {
     });
     return acc;
   }, []);
-  return profile({ props, avatar, fields, data });
+  return profileTemplate({ props, avatar, fields, data });
 };
+
+const root = document.querySelector("#root");
+root.innerHTML = profile({
+  email: "pochta@yandex.ru",
+  login: "ivanivanov",
+  first_name: "Иван",
+  second_name: "Иванов",
+  display_name: "Иван",
+  phone: "+7 (909) 967 30 30",
+});

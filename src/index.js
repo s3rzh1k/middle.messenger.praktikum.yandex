@@ -6,14 +6,14 @@ import login from "./pages/login/login";
 import register from "./pages/register/register";
 import "./css/style.scss";
 
-const root = document.querySelector("#root");
-const location = window.location.href.replace("http://localhost:3000/", "");
-switch (location) {
-  case "":
-    root.innerHTML = first({
-      comments: [{ subject: "subject", body: "body" }],
-    });
-    break;
+// const root = document.querySelector("#root");
+// const location = window.location.href.replace("http://localhost:3000/", "");
+// switch (location) {
+//   case "":
+//     root.innerHTML = first({
+//       comments: [{ subject: "subject", body: "body" }],
+//     });
+//     break;
 //   case "login":
 //     root.innerHTML = login({
 //       comments: [{ subject: "subject", body: "body" }],
@@ -43,4 +43,4 @@ switch (location) {
 //     root.innerHTML = notFound({
 //       comments: [{ subject: "subject", body: "body" }],
 //     });
-}
+// }
