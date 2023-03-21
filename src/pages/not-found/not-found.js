@@ -1,6 +1,8 @@
 import notFoundTemplate from './not-found.hbs';
 import './not-found.scss';
-export const notFound = (props) => notFoundTemplate(props);
+import "../../css/style.scss";
+
+export const notFound = () => notFoundTemplate();
 
 const root = document.querySelector("#root");
 root.innerHTML = notFound();

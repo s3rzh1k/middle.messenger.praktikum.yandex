@@ -1,5 +1,6 @@
 import profileTemplate from "./profile.hbs";
 import "./profile.scss";
+import "../../css/style.scss";
 import avatar from "../../../static/images/avatar.svg";
 export const profile = (props) => {
   const fields = {

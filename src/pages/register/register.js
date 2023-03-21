@@ -1,5 +1,8 @@
 import registerTemplate from "./register.hbs";
 import "./register.scss";
+import "../../css/style.scss";
+import "../login/login.scss";
+
 export const register = (props) => {
   const fields = {
     email: "Почта",
@@ -22,4 +25,4 @@ export const register = (props) => {
 };
 
 const root = document.querySelector("#root");
-root.innerHTML = register();
+root.innerHTML = register({});

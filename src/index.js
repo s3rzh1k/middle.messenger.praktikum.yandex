@@ -1,9 +1,9 @@
-import first from "./pages/first/first";
-import broken from "./pages/broken/broken";
-import notFound from "./pages/not-found/not-found";
-import profile from "./pages/profile/profile";
-import login from "./pages/login/login";
-import register from "./pages/register/register";
+// import first from "./pages/first/first";
+// import broken from "./pages/broken/broken";
+// import notFound from "./pages/not-found/not-found";
+// import profile from "./pages/profile/profile";
+// import login from "./pages/login/login";
+// import register from "./pages/register/register";
 import "./css/style.scss";
 
 // const root = document.querySelector("#root");
