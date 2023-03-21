@@ -1,6 +1,6 @@
 import loginTemplate from "./login.hbs";
-import "./login.scss";
 import "../../css/style.scss";
+import "./login.scss";
 
 export const login = () => {
   return loginTemplate();

@@ -1,7 +1,7 @@
 import registerTemplate from "./register.hbs";
-import "./register.scss";
 import "../../css/style.scss";
 import "../login/login.scss";
+import "./register.scss";
 
 export const register = (props) => {
   const fields = {
