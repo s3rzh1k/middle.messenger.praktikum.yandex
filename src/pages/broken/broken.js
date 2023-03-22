@@ -1,7 +1,6 @@
 import brokenTemplate from './broken.hbs';
 import key from '../../../static/images/key.svg';
 import "../../css/style.scss";
-import "../not-found/not-found.scss";
 import './broken.scss';
 export const broken = () => brokenTemplate({key});
 

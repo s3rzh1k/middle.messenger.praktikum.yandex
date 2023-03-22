@@ -1,3 +1,3 @@
-import first from './first.hbs';
+import firstTemplate from './first.hbs';
 import './first.scss';
-export default (props) => first(props);
+export const first = (links) => firstTemplate({links});
