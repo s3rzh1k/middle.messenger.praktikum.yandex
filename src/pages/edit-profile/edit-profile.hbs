@@ -1,0 +1,33 @@
+<div class="container">
+    <header>
+        <div class="text-align-center fz-30">Регистрация</div>
+    </header>
+    <main>
+        <form class="container__form">
+            <section class="container__input mb-4">
+                {{#each leftSection}}
+                    <input
+                            class="input input_text"
+                            type="text"
+                            name="{{name}}"
+                            placeholder="{{localName}}"
+                    />
+                {{/each}}
+            </section>
+            <section class="container__input mb-4">
+                {{#each rightSection}}
+                    <input
+                            class="input input_text"
+                            type="text"
+                            name="{{name}}"
+                            placeholder="{{localName}}"
+                    />
+                {{/each}}
+            </section>
+            <div class="container__actions">
+                <button class="mb-1" formaction="submit">Регистрация</button>
+                <a href="login">Войти</a>
+            </div>
+        </form>
+    </main>
+</div>

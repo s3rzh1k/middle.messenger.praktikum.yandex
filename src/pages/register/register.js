@@ -15,8 +15,8 @@ export const register = (props) => {
   };
   const data = Object.keys(fields).reduce((acc, key) => {
     acc.push({
-      key,
-      name: fields[key],
+      name: key,
+      localName: fields[key],
       value: props[key],
     });
     return acc;

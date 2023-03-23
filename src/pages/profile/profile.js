@@ -2,6 +2,7 @@ import profileTemplate from "./profile.hbs";
 import "../../css/style.scss";
 import "./profile.scss";
 import avatar from "../../../static/images/avatar.svg";
+
 export const profile = (props) => {
   const fields = {
     email: "Почта",

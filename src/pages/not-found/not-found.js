@@ -1,6 +1,6 @@
-import notFoundTemplate from './not-found.hbs';
+import notFoundTemplate from "./not-found.hbs";
 import "../../css/style.scss";
-import './not-found.scss';
+import "./not-found.scss";
 
 export const notFound = () => notFoundTemplate();
 

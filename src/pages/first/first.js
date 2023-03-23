@@ -1,4 +1,5 @@
-import firstTemplate from './first.hbs';
+import firstTemplate from "./first.hbs";
 import "../../css/style.scss";
-import './first.scss';
-export const first = (links) => firstTemplate({links});
+import "./first.scss";
+
+export const first = (links) => firstTemplate({ links });
