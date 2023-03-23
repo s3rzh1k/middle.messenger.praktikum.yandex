@@ -46,10 +46,6 @@ li {
   }
 }
 
-.fz-30 {
-  font-size: 30px;
-}
-
 .container {
   display: flex;
   justify-content: center;
@@ -87,6 +83,10 @@ li {
     button {
       width: 100%;
     }
+
+    .link_red {
+      color: var(--c-red);
+    }
   }
 }
 
@@ -107,5 +107,23 @@ li {
   &__subtitle {
     font-size: 35px;
     margin-bottom: 1rem;
+  }
+}
+
+.fz-30 {
+  font-size: 30px;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.mb {
+  &-1 {
+    margin-bottom: 1rem;
+  }
+
+  &-4 {
+    margin-bottom: 4rem;
   }
 }

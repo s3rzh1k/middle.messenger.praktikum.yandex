@@ -1,0 +1,30 @@
+.container {
+  &__section {
+    display: flex;
+    margin: 1rem;
+  }
+  &__input {
+    padding: 1rem;
+    &:first-child {
+      justify-content: space-between;
+    }
+  }
+  &__input-file {
+    display: none;
+  }
+  .img-container {
+    width: 100%;
+    cursor: pointer;
+
+    &__image {
+      display: block;
+      margin: 0 auto 2rem;
+    }
+
+    &__title {
+      font-size: 22px;
+      font-weight: 700;
+      text-align: center;
+    }
+  }
+}
