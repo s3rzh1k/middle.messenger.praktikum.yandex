@@ -1,5 +1,4 @@
 import {first} from "./pages/first/first";
-import "./css/style.scss";
 
 const links = [
     {
