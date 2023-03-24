@@ -1,0 +1,44 @@
+<main class="container">
+  <form class="container__form">
+    <header>
+      <div class="text-align-center fz-30">Изменение данных</div>
+    </header>
+    <section class="container__section">
+      <div class="container__input">
+        <label>
+          <input class="container__input-file" type="file" name="avatar" />
+          <div class="img-container">
+            <img
+              class="img-container__image"
+              title="Выберите аватар"
+              src={{avatar}}
+            />
+            <div class="img-container__title">{{props.display_name}}</div>
+          </div>
+        </label>
+        {{#each leftSection}}
+          <input
+            class="input input_text"
+            type="text"
+            name="{{name}}"
+            placeholder="{{localName}}"
+          />
+        {{/each}}
+      </div>
+      <div class="container__input">
+        {{#each rightSection}}
+          <input
+            class="input input_text"
+            type="text"
+            name="{{name}}"
+            placeholder="{{localName}}"
+          />
+        {{/each}}
+      </div>
+    </section>
+    <div class="container__actions">
+      <button class="mb-1" formaction="submit">Сохранить</button>
+      <a class="link_red" href="profile">Отменить</a>
+    </div>
+  </form>
+</main>
