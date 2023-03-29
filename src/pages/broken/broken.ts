@@ -1,5 +1,7 @@
-import brokenTemplate from "./broken.hbs";
-import key from "../../../static/images/key.svg";
+// @ts-ignore
+import * as brokenTemplate from "./broken.hbs";
+// @ts-ignore
+import key from '../../../static/images/key.svg';
 import "../../css/style.scss";
 import "./broken.scss";
 

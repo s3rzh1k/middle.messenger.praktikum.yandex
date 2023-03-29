@@ -1,3 +1,4 @@
+// @ts-ignore
 import loginTemplate from "./login.hbs";
 import "../../css/style.scss";
 import "./login.scss";

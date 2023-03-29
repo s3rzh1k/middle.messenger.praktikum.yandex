@@ -1,3 +1,4 @@
+// @ts-ignore
 import firstTemplate from "./first.hbs";
 import "../../css/style.scss";
 import "./first.scss";

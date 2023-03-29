@@ -1,6 +1,6 @@
 import { first } from "./pages/first/first";
 
-const links = [
+const links: { href: string, label: string }[] = [
   {
     href: "/login",
     label: "Вход",

@@ -1,3 +1,4 @@
+// @ts-ignore
 import notFoundTemplate from "./not-found.hbs";
 import "../../css/style.scss";
 import "./not-found.scss";

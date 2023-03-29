@@ -1,4 +1,6 @@
+// @ts-ignore
 import editProfileTemplate from "./edit-profile.hbs";
+// @ts-ignore
 import avatar from "../../../static/images/avatar.svg";
 import "../../css/style.scss";
 import "./edit-profile.scss";
