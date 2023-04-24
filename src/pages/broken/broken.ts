@@ -1,5 +1,5 @@
 // @ts-ignore
-import * as brokenTemplate from "./broken.hbs";
+import brokenTemplate from "./broken.hbs";
 // @ts-ignore
 import key from '../../../static/images/key.svg';
 import "../../css/style.scss";
